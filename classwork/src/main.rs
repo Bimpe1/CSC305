@@ -16,3 +16,14 @@ fn main() {
     user_defined::run();
 
 }
+//a function to multiply 2 arrays
+// fn multiplier (arr:&[f64]) -> f64{
+//      let mut i=0;
+//      let mut product=1.0;
+//      while i<arr.len(){
+//         product = product*arr[i];
+// i+=1;
+//      }
+//      product
+    
+// }
