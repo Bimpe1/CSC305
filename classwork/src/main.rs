@@ -13,7 +13,7 @@ fn main() {
 
     println!("");
     println!("User-Defined ");
-    user_defined::run();
+    user_defined::run2();
 
 }
 //a function to multiply 2 arrays
