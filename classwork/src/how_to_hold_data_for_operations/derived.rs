@@ -1,2 +1,3 @@
 pub mod user_defined;
-mod functions;
+pub mod functions;
+pub mod pointers;

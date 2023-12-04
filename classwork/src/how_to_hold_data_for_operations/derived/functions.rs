@@ -152,7 +152,7 @@ pub fn run4() {
     We will map through a collection, square each value, 
     retain only odd numbers and sum them or collect them
     */
-    let my_array = [1, 2, 3, 4, 5, 6, 7];
+    let my_array = [1, 2, 3, 4, 5, 6, 7]; //declaring an array named my_array of type 32bit integer of size 7 assigning values to it
 
     //data types in stack implement Copy trait by default, so I can use my_array twice below.
     let sum_of_all_even_numbers_after_square: i32 = my_array
@@ -185,7 +185,7 @@ pub fn run4() {
     //clone is used below so that I can reuse my_vec again. Vec do not implement Copy trait by default.
     let sum_of_all_even_numbers_from_tuple_after_square: i32 = my_vec
         .clone()
-        .into_iter()
+        .into_iter()              //into iteration(to iterate)
         .map(|n| n ^ 2)
         .filter(|n| n % 2 == 0)
         .sum();
