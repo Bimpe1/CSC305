@@ -1,6 +1,4 @@
 pub fn run() {
-    #![allow(overflowing_literals)]
-
     // Integer addition
     println!("1 + 2 = {}", 1u32 + 2);
 
@@ -25,6 +23,7 @@ pub fn run() {
 
     // Use underscores to improve readability!
     println!("One million is written as {}", 1_000_000u32);
+<<<<<<< HEAD
 // Suppress all warnings from casts which overflow.
 
     let decimal = 65.4321_f32;
@@ -117,4 +116,7 @@ type U64 = u64;
              nanoseconds + inches);
              
 }
+=======
+>>>>>>> parent of e872f33 (working with rust)
 
+}
